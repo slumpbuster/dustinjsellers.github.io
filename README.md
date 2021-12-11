@@ -63,6 +63,10 @@ Electronic Medical Records – PowerBuilder / MS SQL (Senior Developer)
 - Medical Device Integration with 3rd Party Devices (Burdick/WelchAllyn/Midmark) – C# (Sole Developer)
 - Communicate with Devices to request and retain data and images
 
+API - XML / SOAP
+- Creation of APIs for 3rd party vendors, customers to connect to application(s)
+- Integration of 3rd party created API to allow connection to the 3rp part application(s)
+
 Remote Scanning (RDP/Citrix) – C and Visual C++ (Sole Developer)
 - Allow Scanning from a local machine connected to an RDP/Citrix Server running as a Hosted Environment
 
