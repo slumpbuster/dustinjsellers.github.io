@@ -27,7 +27,7 @@
         </div>
     </nav>
     <header class="text-start d-flex masthead" style="background-image:url('assets/img/PortfolioBanner.png');">
-        <h1 class="text-break fs-1 text-center text-white mb-1">&nbsp;Dustin Sellers<br><em class="fs-6 text-center text-secondary"><br>Full-Stack Developer<br>Health &amp; Wellness Coach<br></em><em class="fs-6 text-center text-white"><br>Youngstown, OH, USA<br><br><a class="btn btn-secondary btn-sm btn-xl js-scroll-trigger" role="button" href="#about">Find Out More</a><br></em><br></h1>
+        <h1 class="text-break fs-1 text-center text-white mb-1">&nbsp;Dustin Sellers<br><em class="fs-6 text-center text-secondary"><br>Full-Stack Developer<br>Health &amp; Wellness Coach<br></em><em class="fs-6 text-center text-white"><br>Youngstown, OH, USA<br><br><a class="btn btn-secondary btn-sm btn-xl js-scroll-trigger" role="button" id="lnkAboutMe" href="#about">Find Out More</a><br></em><br></h1>
     </header>
     <section id="about" class="content-section bg-light">
         <div class="container text-center">
@@ -35,8 +35,8 @@
                 <div class="col-lg-10 offset-1 text-center">
                     <h2>About Me</h2>
                     <picture class="text-start"><img class="rounded-circle border border-primary shadow" id="BioPic" src="assets/img/bioPic.jpg"></picture>
-                    <p class="text-start lead mb-5"><span>👋 Hi, I’m @slumpbuster (Dustin Sellers)<br>👀 I’m interested in Technology &amp; Health&nbsp;and Wellness<br>🔭 I’m Team-Lead for the Software Development Team at Henry Schein Medical Systems<br>🌱 I’m currently learning Full-stack Web Development - MIT<br>💞️ I’m looking to collaborate on Web Development<br>💬 Ask me about Anything :)<br>📫 You can reach me via <a class="fs-4 fw-bold" id="email" href="mailto:djsellers17@gmail.com">email</a>&nbsp;or <small class="fs-4" href="https://www.linkedin.com/in/dustinsellers/"><a class="fs-4 fw-bold" href="https://www.linkedin.com/in/dustinsellers/">LinkedIn</a></small><br></span></p>
-                    <p class="text-start lead mb-5"><span><strong>Tech Skills</strong>: HTML | CSS | Javascript | Node | React | Express | Jest | RESTful API's | Github | Git | TSQL | C# | VB.NET | VB | C++ | C | PowerBuilder | PowerDesigner<br><strong>Health/Wellness:</strong> Wellness Coach | Personal Trainer | Nutrition Coach | Yoga Instructor | Strength &amp; Conditioning Coach</span></p><a class="btn btn-dark btn-sm btn-xl js-scroll-trigger" role="button" href="#process" style="width: 15em; margin: 1em;">Workflow Process</a><a class="btn btn-dark btn-sm btn-xl js-scroll-trigger" role="button" href="#portfolio" style="width: 15em; margin: 1em;">GitHub Repositories</a>
+                    <p class="text-start lead mb-5"><span>👋 Hi, I’m @slumpbuster (Dustin Sellers)<br>👀 I’m interested in Technology &amp; Health&nbsp;and Wellness<br>🔭 I’m Team-Lead for the Software Development Team at Henry Schein Medical Systems<br>🌱 I’m currently learning Full-stack Web Development - MIT<br>💞️ I’m looking to collaborate on Web Development<br>💬 Ask me about Anything :)<br>📫 You can reach me via <a class="fs-4 fw-bold" id="email" href="mailto:djsellers17@gmail.com">email</a>&nbsp;or <small class="fs-4" href="https://www.linkedin.com/in/dustinsellers/"><a class="fs-4 fw-bold" id="linkedIn" href="https://www.linkedin.com/in/dustinsellers/">LinkedIn</a></small><br></span></p>
+                    <p class="text-start lead mb-5"><span><strong>Tech Skills</strong>: HTML | CSS | Javascript | Node | React | Express | Jest | RESTful API's | Github | Git | TSQL | C# | VB.NET | VB | C++ | C | PowerBuilder | PowerDesigner<br><strong>Health/Wellness:</strong> Wellness Coach | Personal Trainer | Nutrition Coach | Yoga Instructor | Strength &amp; Conditioning Coach</span></p><a class="btn btn-dark btn-sm btn-xl js-scroll-trigger" role="button" id="lnkProcess" href="#process" style="width: 15em; margin: 1em;">Workflow Process</a><a class="btn btn-dark btn-sm btn-xl js-scroll-trigger" role="button" id="lnkPortfolio" href="#portfolio" style="width: 15em; margin: 1em;">GitHub Repositories</a>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                 <h2 class="mb-5">Recent GitHub Repositories</h2>
             </div>
             <div class="row g-0">
-                <div class="col-lg-6"><a class="portfolio-item" href="https://slumpbuster.github.io/Real-Time-Bus-Tracker-Exercise/">
+                <div class="col-lg-6"><a id="repoBus" class="portfolio-item" href="https://slumpbuster.github.io/Real-Time-Bus-Tracker-Exercise/">
                         <div class="caption">
                             <div class="caption-content">
                                 <h2 class="fs-1 fw-bold text-center text-white">Real-time bus tracker</h2>
@@ -100,7 +100,7 @@
                             </div>
                         </div><img class="img-fluid" src="assets/img/publicTransportation.png">
                     </a></div>
-                <div class="col-lg-6"><a class="portfolio-item" href="https://slumpbuster.github.io/PacMen-Excercise/">
+                <div class="col-lg-6"><a id="repoPacMen" class="portfolio-item" href="https://slumpbuster.github.io/PacMen-Excercise/">
                         <div class="caption">
                             <div class="caption-content">
                                 <h2 class="fs-1 fw-bold text-center text-dark">PacMEn</h2>
@@ -108,7 +108,7 @@
                             </div>
                         </div><img class="img-fluid" src="assets/img/PacMen.png">
                     </a></div>
-                <div class="col-lg-6"><a class="portfolio-item" href="https://slumpbuster.github.io/Eye-Exercse/">
+                <div class="col-lg-6"><a id="repoEyes" class="portfolio-item" href="https://slumpbuster.github.io/Eye-Exercse/">
                         <div class="caption">
                             <div class="caption-content">
                                 <h2 class="fs-1 fw-bold text-secondary">Eyes</h2>
@@ -116,7 +116,7 @@
                             </div>
                         </div><img class="img-fluid" src="assets/img/CookieMonster.png">
                     </a></div>
-                <div class="col-lg-6"><a class="portfolio-item" href="https://slumpbuster.github.io/Hanoi-Tower-Excercise/">
+                <div class="col-lg-6"><a id="repoHanoi" class="portfolio-item" href="https://slumpbuster.github.io/Hanoi-Tower-Excercise/">
                         <div class="caption">
                             <div class="caption-content">
                                 <h2 class="fs-1 fw-bold text-dark">Hanoi Tower</h2>
@@ -130,16 +130,16 @@
     <section id="deepdive" class="content-section bg-primary text-white">
         <div class="container text-center">
             <h2 class="mb-4">Deep Dive</h2><iframe allowfullscreen="" frameborder="0" width="560" height="315"></iframe>
-            <p>If you'd like to know more about me from a professional level, check out the two links below<br><br></p><a class="btn btn-light btn-xl me-4" role="button" href="https://github.com/slumpbuster/slumpbuster.github.io#readme" style="width: 17em;">Technical Resume</a><a class="btn btn-dark btn-xl me-4" role="button" href="https://www.compassconditioning.com/" style="width: 17em;">Health &amp; Wellness Services</a>
+            <p>If you'd like to know more about me from a professional level, check out the two links below<br><br></p><a class="btn btn-light btn-xl me-4" role="button" id="resume" href="https://github.com/slumpbuster/slumpbuster.github.io#readme" style="width: 17em;" target="_blank">Technical Resume</a><a class="btn btn-dark btn-xl me-4" role="button" id="compassconditioning" href="https://www.compassconditioning.com/" style="width: 17em;" target="_blank">Health &amp; Wellness Services</a>
         </div>
     </section>
     <footer class="footer text-center">
         <div class="container">
             <ul class="list-inline mb-5">
-                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="mailto:djsellers17@gmail.com"><i class="icon-envelope-letter"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="https://www.linkedin.com/in/dustinsellers/"><i class="icon-social-linkedin"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="https://www.instagram.com/compassconditioning/"><i class="icon-social-instagram"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="https://github.com/slumpbuster"><i class="icon-social-github"></i></a></li>
+                <li class="list-inline-item" id="footerEmail">&nbsp;<a class="link-light social-link rounded-circle" href="mailto:djsellers17@gmail.com"><i class="icon-envelope-letter"></i></a></li>
+                <li class="list-inline-item" id="footerLinkedIn">&nbsp;<a class="link-light social-link rounded-circle" href="https://www.linkedin.com/in/dustinsellers/"><i class="icon-social-linkedin"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" id="footerInstagram" href="https://www.instagram.com/compassconditioning/"><i class="icon-social-instagram"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" id="footerGitHub" href="https://github.com/slumpbuster"><i class="icon-social-github"></i></a></li>
             </ul>
             <p class="text-muted mb-0 small">Copyright &nbsp;© Dustin John Sellers 2022</p>
         </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
