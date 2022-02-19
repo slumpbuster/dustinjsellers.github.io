@@ -1,3 +1,11 @@
+function dynamicallyLoadScript(url) {
+    var script = document.createElement("script");  // create a script DOM node
+    script.src = url;  // set its src to the provided URL
+   
+    document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+}
+dynamicallyLoadScript('https://formspree.io/js/formbutton-v1.min.js');
+
 (function() {
   "use strict"; // Start of use strict
 
@@ -105,3 +113,38 @@ for (var map of maps) {
   // Enable map zooming with mouse scroll when the user clicks the map
   map.addEventListener('click', onMapClickHandler);
 }
+
+var form = document.forms["contact"];
+form.addEventListener('submit',contact_submit,false);
+
+/* paste this line in verbatim */
+window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+/* customize formbutton below*/     
+formbutton("create", {
+action: "https://formspree.io/f/mqknqybr",
+title: "How can we help?",
+fields: [
+  { 
+    type: "email", 
+    label: "Email:", 
+    name: "email",
+    required: true,
+    placeholder: "your@email.com"
+  },
+  {
+    type: "textarea",
+    label: "Message:",
+    name: "message",
+    placeholder: "What's on your mind?",
+  },
+  { type: "submit" }      
+],
+styles: {
+  title: {
+    backgroundColor: "gray"
+  },
+  button: {
+    backgroundColor: "gray"
+  }
+}
+});
