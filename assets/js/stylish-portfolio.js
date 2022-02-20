@@ -65,6 +65,14 @@ function init() {
   new TypeWriter(txtElement, words, wait);
 }
 
+function hover(element) {
+  element.setAttribute("src", "bioPic.jpg");
+}
+
+function unhover(element) {
+  element.setAttribute("src", "bioPic-Anime.png");
+}
+
 (function() {
   "use strict"; // Start of use strict
 
