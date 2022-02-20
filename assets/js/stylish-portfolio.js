@@ -66,10 +66,10 @@ function init() {
 }
 
 function changeBioPic(element) {
-  if (element.getAttribute("src") == "bioPic.jpg") {
-    element.setAttribute("src", "bioPic-Anime.png");
+  if (element.getAttribute("src").includes("bioPic-Anime")) {
+	element.setAttribute("src", "assets/img/bioPic.jpg");
   } else {
-	element.setAttribute("src", "bioPic.jpg");
+    element.setAttribute("src", "assets/img/bioPic-Anime.png");
   }
 }
 
@@ -180,38 +180,3 @@ for (var map of maps) {
   // Enable map zooming with mouse scroll when the user clicks the map
   map.addEventListener('click', onMapClickHandler);
 }
-
-var form = document.forms["contact"];
-form.addEventListener('submit',contact_submit,false);
-
-/* paste this line in verbatim */
-window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-/* customize formbutton below*/     
-formbutton("create", {
-action: "https://formspree.io/f/mqknqybr",
-title: "How can we help?",
-fields: [
-  { 
-    type: "email", 
-    label: "Email:", 
-    name: "email",
-    required: true,
-    placeholder: "your@email.com"
-  },
-  {
-    type: "textarea",
-    label: "Message:",
-    name: "message",
-    placeholder: "What's on your mind?",
-  },
-  { type: "submit" }      
-],
-styles: {
-  title: {
-    backgroundColor: "gray"
-  },
-  button: {
-    backgroundColor: "gray"
-  }
-}
-});
