@@ -65,12 +65,12 @@ function init() {
   new TypeWriter(txtElement, words, wait);
 }
 
-function hover(element) {
-  element.setAttribute("src", "bioPic.jpg");
-}
-
-function unhover(element) {
-  element.setAttribute("src", "bioPic-Anime.png");
+function changeBioPic(element) {
+  if (element.getAttribute("src") == "bioPic.jpg") {
+    element.setAttribute("src", "bioPic-Anime.png");
+  } else {
+	element.setAttribute("src", "bioPic.jpg");
+  }
 }
 
 (function() {
