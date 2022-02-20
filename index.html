@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
 </head>
 
 <body id="page-top"><a class="menu-toggle rounded" href="#"><i class="icon-menu"></i></a>
@@ -93,39 +95,46 @@
                 <h3 class="fs-2 text-secondary mb-0">Portfolio</h3>
                 <h2 class="fs-1 mb-5">Recent GitHub Repositories</h2>
             </div>
-            <div class="row g-0">
-                <div class="col-lg-6"><a id="repoBus" class="portfolio-item" href="https://slumpbuster.github.io/Real-Time-Bus-Tracker-Exercise/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2 class="fs-1 fw-bold text-center text-dark">Real-time bus tracker</h2>
-                                <p class="fs-5 fw-bold text-dark mb-0">Location of public vehicles currently in transit in the City of Boston<br></p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/publicTransportation.png">
-                    </a></div>
-                <div class="col-lg-6"><a id="repoPacMen" class="portfolio-item" href="https://slumpbuster.github.io/PacMen-Excercise/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2 class="fs-1 fw-bold text-center text-dark">PacMEn</h2>
-                                <p class="fs-5 fw-bold text-dark mb-0">PacMen move within screen boundary, changing direction upon hitting boundary edge<br></p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/PacMen.png">
-                    </a></div>
-                <div class="col-lg-6"><a id="repoEyes" class="portfolio-item" href="https://slumpbuster.github.io/Eye-Exercse/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2 class="fs-1 fw-bold text-dark">Eyes</h2>
-                                <p class="fs-5 fw-bold text-dark mb-0">Exercise that shows the interaction between the browser and the movement of the mouse using virtual eyes<br></p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/CookieMonster.png">
-                    </a></div>
-                <div class="col-lg-6"><a id="repoHanoi" class="portfolio-item" href="https://slumpbuster.github.io/Hanoi-Tower-Excercise/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2 class="fs-1 fw-bold text-dark">Hanoi Tower</h2>
-                                <p class="fs-5 fw-bold text-dark mb-0">Move all the disks from the left hand post to the right hand post, only moving the disks one at a time and a bigger disk can never be placed on a smaller disk<br></p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/HanoiTower.png">
-                    </a></div>
+            <div class="simple-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a id="repoBus" class="portfolio-item" href="https://slumpbuster.github.io/Real-Time-Bus-Tracker-Exercise/" style="width: 100%;height: 100%;">
+                                <div class="caption" style="background: url(&quot;assets/img/publicTransportation.png&quot;) center center / cover no-repeat;width: 100%;height: 100%;">
+                                    <div class="caption-content" style="width: 100%; height: 100%; display: grid; place-items: center;">
+                                        <h2 class="fs-1 fw-bold text-center text-dark" style="margin-top:auto; margin-bottom:0px;">Real-time bus tracker</h2>
+                                        <p class="fs-5 fw-bold text-center text-dark" style="margin-bottom:auto; margin-top:0px;"><br>Location of public vehicles currently in transit in the City of Boston<br></p>
+                                    </div>
+                                </div>
+                            </a></div>
+                        <div class="swiper-slide"><a id="repoPacMen" class="portfolio-item" href="https://slumpbuster.github.io/PacMen-Excercise/" style="width: 100%;height: 100%;">
+                                <div class="caption" style="background: url(&quot;assets/img/PacMen.png&quot;) center center / cover no-repeat;width: 100%;height: 100%;">
+                                    <div class="caption-content" style="width: 100%; height: 100%; display: grid; place-items: center;">
+                                        <h2 class="fs-1 fw-bold text-center text-dark" style="margin-top:auto; margin-bottom:0px;">Pacmen</h2>
+                                        <p class="fs-5 fw-bold text-center text-dark" style="margin-bottom:auto; margin-top:0px;"><br><strong>PacMen move within screen boundary, changing direction upon hitting boundary edge</strong><br></p>
+                                    </div>
+                                </div>
+                            </a></div>
+                        <div class="swiper-slide"><a id="repoEyes" class="portfolio-item" href="https://slumpbuster.github.io/Eye-Exercse/" style="width: 100%;height: 100%;">
+                                <div class="caption" style="background: url(&quot;assets/img/CookieMonster.png&quot;) center center / cover no-repeat;width: 100%;height: 100%;">
+                                    <div class="caption-content" style="width: 100%; height: 100%; display: grid; place-items: center;">
+                                        <h2 class="fs-1 fw-bold text-center text-dark" style="margin-top:auto; margin-bottom:0px;">Eyes</h2>
+                                        <p class="fs-5 fw-bold text-center text-dark" style="margin-bottom:auto; margin-top:0px;"><br><strong>Exercise that shows the interaction between the browser and the movement of the mouse using virtual eyes</strong><br></p>
+                                    </div>
+                                </div>
+                            </a></div>
+                        <div class="swiper-slide"><a id="repoHanoi" class="portfolio-item" href="https://slumpbuster.github.io/Hanoi-Tower-Excercise/" style="width: 100%;height: 100%;">
+                                <div class="caption" style="background: url(&quot;assets/img/HanoiTower.png&quot;) center center / cover no-repeat;width: 100%;height: 100%;">
+                                    <div class="caption-content" style="width: 100%; height: 100%; display: grid; place-items: center;">
+                                        <h2 class="fs-1 fw-bold text-center text-dark" style="margin-top:auto; margin-bottom:0px;">Hanoi TOWER</h2>
+                                        <p class="fs-5 fw-bold text-center text-dark" style="margin-bottom:auto; margin-top:0px;"><br><strong>Move all the disks from the left hand post to the right hand post, only moving the disks one at a time and a bigger disk can never be placed on a smaller disk</strong><br></p>
+                                    </div>
+                                </div>
+                            </a></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="text-dark swiper-button-prev"></div>
+                    <div class="text-dark swiper-button-next"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -159,6 +168,8 @@
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/stylish-portfolio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>
