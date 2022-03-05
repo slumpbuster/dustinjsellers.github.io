@@ -63,6 +63,22 @@
   background-color: rgba(0, 0, 0, .5);
 }
 
+.objRepDesktop {
+  width: auto;
+  padding-top: 26em;
+  padding-left: 93em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
+
+.objRepMobile {
+  width: auto;
+  padding-top: 26em;
+  padding-left: 101em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
+
 /* ALIGN CONTENT */
 
 .typewriter {
