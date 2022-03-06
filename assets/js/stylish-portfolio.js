@@ -53,13 +53,6 @@ class TypeWriter {
   }
 }
 
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ||
-   (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.platform))) {
-  document.getElementById('obyRep').className = 'objRepMobile';
-} else {
-  document.getElementById('obyRep').className = 'objRepDesktop';
-}
-
 // Init On DOM Load
 document.addEventListener("DOMContentLoaded", init);
 
