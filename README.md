@@ -36,17 +36,24 @@ Skillset
 - Database Architect
 - Database Administrator
 - Network Administrator
-- Product Management
-- Agile Methodology
+- Product Analyst
 - Teacher
 - Coach
+
+Methodologies
+- Agile
+- Waterfall
+- DevOps
+- Rapid
 
 Languages
 - C# / VB.NET
 - PowerBuilder
-- HTML / CSS / Javascript / XML
+- HTML / CSS
+- Javascript (REACT, NODE, RECOIL, JQUERY)
+- XML / JSON
 - C / C++
-- MS SQL / ASA / SQL Anywhere / My SQL (Sole Developer)
+- TSQL (MICROSOFT SQL / MySQL / ASA / ORACLE / MONGO)
 
 ---------
 
@@ -64,17 +71,19 @@ Electronic Medical Records – PowerBuilder / MS SQL (Senior Developer)
 - Medical Device Integration with 3rd Party Devices (Burdick/WelchAllyn/Midmark) – C# (Sole Developer)
 - Communicate with Devices to request and retain data and images
 
-API - XML / SOAP
+API - XML / JSON / SOAP
 - Creation of APIs for 3rd party vendors, customers to connect to application(s)
 - Integration of 3rd party created API to allow connection to the 3rp part application(s)
 
-Remote Scanning (RDP/Citrix) – C and Visual C++ (Sole Developer)
+Remote Scanning (RDP/Citrix) & OCR Scanning Integration – C and Visual C++ (Sole Developer)
 - Allow Scanning from a local machine connected to an RDP/Citrix Server running as a Hosted Environment
-
-OCR Scanning with 3rd Party (CSSN) – C (Sole Developer)
 
 Auto Deployment – C# / Sybase ASA 12 (Sole Developer)
 - Allows Clients to download updated software off hours to be installed at a later time
 - Sends information about client setup/hardware/usage for support and maintenance
 
+Data Mining – C# / Sybase ASA 12 (Sole Developer)
+- Allows Clients to upload statistics for troubleshooting and support
+
 Practice Management Lite Web-Based Application – HTML/JavaScript/CSS/AJAX (Sole Developer)
+- Minimal Web Application version of Product Management System
