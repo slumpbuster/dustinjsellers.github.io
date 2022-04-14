@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Dustin John Sellers</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/stylish-portfolio.css">
 </head>
@@ -33,20 +34,20 @@
     <header class="text-start d-flex masthead" style="background-image:url('assets/img/PortfolioBanner.png');">
         <h1 class="fs-1 fw-bold text-center text-dark mb-1 info-heading" style="margin-left: 1em; padding-top: 0.75em; padding-left: 0.5em; padding-right: 0.5em;">Dustin Sellers<br><em class="fs-5 fw-bold text-center text-dark"><br>Full-Stack Developer<br>Health &amp; Wellness Coach<br></em><em class="fs-5 fw-bold text-center text-dark"><br>Youngstown, OH, USA<br><br><a class="btn btn-secondary btn-sm fs-3 fw-bold link-secondary btn-xl js-scroll-trigger" role="button" id="lnkAboutMe" href="#about" style="background: var(--bs-dark); border-radius: 10px;">Find Out More</a><br></em><br></h1>
     </header>
-    <section id="about" class="content-section bg-light">
+    <section id="about" class="content-section bg-light" style="padding: 40px 0px;">
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 text-center" id="biopic" style="width: 1320px;">
                     <h2 class="fs-2 text-secondary">ABOUT ME</h2>
                     <h2 class="fs-1">Just Some Highlights</h2>
-                    <picture class="text-start"><img class="rounded-circle border border-primary shadow" id="BioPic" src="assets/img/bioPic-Anime.png" style="hidden" onmouseover="changeBioPic(this);" onmouseout="changeBioPic(this);" onclick="changeBioPic(this);"></picture>
+                    <picture class="text-start"><img class="rounded-circle border border-primary shadow" id="BioPic" src="assets/img/bioPic-Anime.png" style="hidden" onmouseover="changeBioPic(this);" onmouseout="changeBioPic(this);" onclick="changeBioPic(this);" alt="Bio Pic"></picture>
                     <p class="text-start lead mb-5 center-grid"><span>👋 <strong>H</strong>i, I’m Dustin Sellers&nbsp;<a class="fs-4 fw-bold" id="gitHub" href="https://github.com/slumpbuster">@slumpbuster</a><br>👀 <strong>I</strong>nterested in Technology &amp; Health&nbsp;and Wellness<br>🔭 <strong>F</strong>ull Stack Developer at Henry Schein Medical Systems<br>💻&nbsp;<strong>T</strong>eam-Lead for the Software Development Department<br>⚡&nbsp;<strong>2</strong>0+ years experience&nbsp;<br>🌱 <strong>C</strong>urrently learning Full-stack Web Development - MIT<br>💞️ <strong>L</strong>ooking to collaborate on Web Development<br>💬 <strong>A</strong>sk me about Anything :)<br>📫 <strong>R</strong>each me via <a class="fs-4 fw-bold" id="email" href="mailto:djsellers17@gmail.com">email</a>&nbsp;or <small class="fs-4" href="https://www.linkedin.com/in/dustinsellers/"><a class="fs-4 fw-bold" id="linkedIn" href="https://www.linkedin.com/in/dustinsellers/">LinkedIn</a></small><br></span></p>
                     <p class="text-start lead mb-5 center-grid"><span><strong>Technical:</strong>&nbsp;HTML | CSS | Javascript | Node | React | Express | Jest | RESTful API's | Github | Git | TSQL | C# | VB.NET | VB | C++ | C | PowerBuilder | PowerDesigner<br><strong>Health/Wellness:</strong> Wellness Coach | Personal Trainer | Nutrition Coach | Yoga Instructor | Strength &amp; Conditioning Coach</span></p><a class="btn btn-primary btn-sm fs-6 fw-bold btn-xl js-scroll-trigger btn-radius" role="button" id="lnkProcess" href="#process">Workflow Process</a><a class="btn btn-primary btn-sm fs-6 fw-bold btn-xl js-scroll-trigger btn-radius" role="button" id="lnkPortfolio" href="#portfolio">GitHub Repositories</a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="process" class="content-section bg-primary text-white text-center">
+    <section id="process" class="content-section bg-primary text-white text-center" style="padding: 40px 0px;">
         <div class="container">
             <div class="content-section-heading">
                 <h3 class="fs-2 text-secondary mb-0">Workflow Process</h3>
@@ -90,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section id="portfolio" class="content-section">
+    <section id="portfolio" class="content-section" style="padding: 40px 0px;">
         <div class="container">
             <div class="content-section-heading text-center">
                 <h3 class="fs-2 text-secondary mb-0">Portfolio</h3>
@@ -163,7 +164,7 @@
             </div>
         </div>
     </section>
-    <section id="deepdive" class="content-section bg-primary text-white">
+    <section id="deepdive" class="content-section bg-primary text-white" style="padding-bottom: 40px;padding-top: 40px;">
         <div class="container text-center"><h2 class="fs-2 text-secondary">Deeper Dive</h2>
 <div class="typewriter">
   <h1>Hi, my name is Dustin<h1>
@@ -174,9 +175,9 @@
     <span class="txt-type" data-wait="3000" data-words='["Software Developer", "Health & Wellness Coach", "Father"]'></span>
   </h2>
 </div><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/W233xfe6F0k" id="introduction" width="315" height="315"></iframe>
-            <p class="fs-5 text-white center-grid-full" style="padding-top: 1em; text-align: justify;">I'm the proud father of two amazing young women. Most of my choices in life are centered around the impact it will have on their lives. Not just how it directly affects them, but also as a role-model they can hopefully look up to.<br>I have been involved in the technology field for over 20+ years. I have had the roles/titles of Technician, Network Administrator, Database Administrator, Software Engineer, Architect, and Team-Lead. I am involved in all aspects of Software Architecture including and not limited to: Case Studies, User Stories, Database Architecture/Design, UI/UX, Implementation, Maintenance.<br>My passion however, lies in Health &amp; Wellness. I believe that without a proper balance of ones physical and mental abilities, one cannot live their best life. At the end of the day, isn't that what we all want?<br><br>If you'd like to know more about me from a professional level, check out the two links below<br></p><a class="btn btn-secondary fs-6 fw-bold btn-xl me-4 btn-radius" role="button" id="compassconditioning" href="https://www.compassconditioning.com/services" target="_blank">Health &amp; Wellness Services</a><a class="btn btn-secondary fs-6 fw-bold btn-xl me-4 btn-radius" role="button" id="resume" href="https://github.com/slumpbuster/slumpbuster.github.io#readme" target="_blank">Resume</a>
+            <p class="fs-5 text-white center-grid-full" style="padding-top: 1em; text-align: justify;">I'm the proud father of two amazing young women. Most of my choices in life are centered around the impact it will have on their lives. Not just how it directly affects them, but also as a role-model they can hopefully look up to.<br>I have been involved in the technology field for over 20+ years. I have had the roles/titles of Technician, Network Administrator, Database Administrator, Software Engineer, Architect, and Team-Lead. I am involved in all aspects of Software Architecture including and not limited to Case Studies, User Stories, Database Architecture/Design, UI/UX, Implementation, and Maintenance.<br>My passion however, lies in Health &amp; Wellness. I believe that without a proper balance of ones physical and mental abilities, one cannot live their best life. At the end of the day, isn't that what we all want?<br><br>If you'd like to know more about me from a professional level, check out the two links below<br></p><a class="btn btn-secondary fs-6 fw-bold btn-xl me-4 btn-radius" role="button" id="compassconditioning" href="https://www.compassconditioning.com/services" target="_blank">Health &amp; Wellness Services</a><a class="btn btn-secondary fs-6 fw-bold btn-xl me-4 btn-radius" role="button" id="resume" href="https://github.com/slumpbuster/slumpbuster.github.io#readme" target="_blank">Resume</a>
         </div><div class="container text-left">
-    <p class="fs-5 text-white">If you enjoy looking at code, here is a JavaScript object representation of me:</p>
+    <p class="fs-5 text-white">If you enjoy looking at code, here is a JavaScript object representation of me *Certifications are clickable:</p>
     <div class="frame center-grid-full text-secondary" style="background: var(--bs-dark); margin:auto;">
       <pre id="obyRep" style="margin: auto; padding: 1em;"><span class="text-info">const self</span><span class="text-white"> = {</span>
       <span class="text-primary">personal:</span> <span class="text-white">{</span>
@@ -197,45 +198,52 @@
           <span class="text-primary">languages:</span> <span class="text-white">[</span>"HTML"<span class="text-white">,</span> "CSS"<span class="text-white">,</span> "Javascript"<span class="text-white">,</span> "TSQL"<span class="text-white">,</span> "C#"<span class="text-white">,</span> "VB.NET"<span class="text-white">,</span> "VB"<span class="text-white">,</span> "PowerBuilder"<span class="text-white">,</span> "C"<span class="text-white">,</span> "C++"<span class="text-white">],</span>
           <span class="text-primary">learning:</span> "Full-Stack Web Development - MIT"<span class="text-white">,</span>
           <span class="text-primary">certificates:</span> <span class="text-white">{</span>
-            <span class="text-primary">ProgrammingHub:</span> <span class="text-white">[</span>"CSS"<span class="text-white">,</span> "HTML"<span class="text-white">,</span> "HTML Advanced"<span class="text-white">,</span> "JavaScript"<span class="text-white">,</span> "JavaScript Advanced"<span class="text-white">,</span> "Building a Website"<span class="text-white">,</span> "JQuery"<span class="text-white">,</span> "SQL"<span class="text-white">,</span> "Software Engineering"<span class="text-white">,</span> "DevOps"<span class="text-white">,</span> "UI/UX"<span class="text-white">,</span> "Cyber Security"<span class="text-white">,</span> "Git"<span class="text-white">,</span> "Docker"<span class="text-white">,</span> "RDBMS"<span class="text-white">,</span> "PostgreSQL"<span class="text-white">,</span> "IPv4 & Networking"<span class="text-white">,</span> "Cryptography"<span class="text-white">,</span> "Cloud Computing"<span class="text-white">,</span> "SAS"<span class="text-white">,</span> "Bulma CSS"<span class="text-white">,</span> "Material Design"<span class="text-white">,</span> "Bootstrap Framework"<span class="text-white">,</span> "Mongo DB"<span class="text-white">]</span>
+            <span class="text-primary">freeCodeCamp:</span> <span class="text-white">[</span><span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/freeCodeCamp-ResponsiveWebDesign.png', 'freeCodeCamp - Responsive Web Design Certificate')">"Responsive Web Design"</span><span class="text-white">],</span>
+            <span class="text-primary">ProgrammingHub:</span> <span class="text-white">[</span><span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_CSS.png', 'ProgrammingHub - CSS Certificate')">"CSS"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_HTML.png', 'ProgrammingHub - HTML Certificate')">"HTML"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_HTMLAdvanced.png', 'ProgrammingHub - HTML Advanced Certificate')">"HTML Advanced"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_JavaScript.png', 'ProgrammingHub - Javascript Certificate')">"JavaScript"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_JavaScriptAdvanced.png', 'ProgrammingHub - Javascript Advanced Certificate')">"JavaScript Advanced"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_BuildingAWebsite.png', 'ProgrammingHub - Building A Website Certificate')">"Building a Website"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_JQuery.png', 'ProgrammingHub - JQuery Certificate')">"JQuery"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_SQL.png', 'ProgrammingHub - SQL Certificate')">"SQL"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_SoftwareEngineering.png', 'ProgrammingHub - Software Egineering Certificate')">"Software Engineering"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_DevOps.png', 'ProgrammingHub - DevOps Certificate')">"DevOps"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_CyberSecurity.png', 'ProgrammingHub - Cyber Security Certificate')">"Cyber Security"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_Git.png', 'ProgrammingHub - Git Certificate')">"Git"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_Docker.png', 'ProgrammingHub - Docker Certificate')">"Docker"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_RDBMS.png', 'ProgrammingHub - RDBMS Certificate')">"RDBMS"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_PostgreSQL.png', 'ProgrammingHub - PostgreSQL Certificate')">"PostgreSQL"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_IPv4_Networking.png', 'ProgrammingHub - IPv4 & Networking Certificate')">"IPv4 & Networking"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_Cryptography.png', 'ProgrammingHub - Cryptography Certificate')">"Cryptography"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_CloudComputing.png', 'ProgrammingHub - Cloud Computing Certificate')">"Cloud Computing"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_SASS.png', 'ProgrammingHub - SASS Certificate')">"SASS"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_BulmaCSS.png', 'ProgrammingHub - Bulma CSS Certificate')">"Bulma CSS"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_MaterialDesign.png', 'ProgrammingHub - Material Design Certificate')">"Material Design"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_BootstrapFramework.png', 'ProgrammingHub - Bootstrap Framework Certificate')">"Bootstrap Framework"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_MongoDB.png', 'ProgrammingHub - MongoDB Certificate')">"Mongo DB"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/IT/ProgrammingHub_Typescript.png', 'ProgrammingHub - TypeScript Certificate')">"TypeScript"</span><span class="text-white">,</span> "UI/UX"<span class="text-white">]</span>
           <span class="text-white">},</span>
           <span class="text-primary">socialMedia:</span> <span class="text-white">{</span>
-            <span class="text-primary">LinkedIn:</span> "https://www.linkedin.com/in/dustinsellers/"<span class="text-white">,</span>
-            <span class="text-primary">GitHub:</span> "https://github.com/slumpbuster"
+            <span class="text-primary">LinkedIn:</span> <span class="myImg" onClick="window.open('https://www.linkedin.com/in/dustinsellers/','_newtab');">"https://www.linkedin.com/in/dustinsellers/"</span><span class="text-white">,</span>
+            <span class="text-primary">GitHub:</span> <span class="myImg" onClick="window.open('https://github.com/slumpbuster','_newtab');">"https://github.com/slumpbuster"</span>
           <span class="text-white">}</span>
         <span class="text-white">}</span>
         <span class="text-primary">health_wellness:</span> <span class="text-white">{</span>
           <span class="text-primary">experience:</span> "10+ years"<span class="text-white">,</span>
           <span class="text-primary">roles:</span> <span class="text-white">[</span>"Health and Wellness Coach", "Nutrition Coach", "Personal Trainer", "Yoga Instructor"<span class="text-white">],</span>
           <span class="text-primary">certificates:</span> <span class="text-white">{</span>
-            <span class="text-primary">ISSA:</span> <span class="text-white">[</span>"Master Trainer"<span class="text-white">,</span> "Personal Trainer"<span class="text-white">,</span> "Specialist in Sports Nutrition"<span class="text-white">,</span> "Youth Fitness Trainer"<span class="text-white">,</span> "Specialist in Strength and Conditioning"<span class="text-white">,</span> "Group Exercise Instuctor", "Yoga Instructor", "Corrective Exercise Specialist"<span class="text-white">,</span> "Specialist in Exercise Therapy"<span class="text-white">,</span> "Weight Management Specialist"<span class="text-white">,</span> "Transformation Specialist"<span class="text-white">],</span>
-            <span class="text-primary">PrecisionNutrition:</span> "Level 1 Nutrition Coach"<span class="text-white">,</span>
-            <span class="text-primary">AFPA:</span> "Health and Wellness Coach"<span class="text-white">,</span>
-            <span class="text-primary">ExpertRating:</span> <span class="text-white">[</span>"Meditation Instructor"<span class="text-white">,</span> "Stretching and Flexibility Instructor"<span class="text-white">,</span> "Holistic Nutrition"<span class="text-white">,</span> "Herbs and Supplements"<span class="text-white">]</span>
+            <span class="text-primary">ISSA:</span> <span class="text-white">[</span><span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Master-Certificate.jpg', 'ISSA - Master Trainer')">"Master Trainer"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Certified-Personal-Trainer-Certification.jpg', 'ISSA - Certified Personal Trainer Certificate')">"Personal Trainer"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Sports-Nutritionist-Certification.jpg', 'ISSA - Sports Nutrition Certificate')">"Specialist in Sports Nutrition"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Youth-Fitness-Certification-Certification.jpg', 'ISSA - Youth Fitness Certificate')">"Youth Fitness Trainer"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Strength-and-Conditioning-Certification.jpg', 'ISSA - Strength & Conditioning Certificate')">"Specialist in Strength and Conditioning"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Group-Exercise-Instructor-Certification.jpg', 'ISSA - Group Exercise Certificate')">"Group Exercise Instuctor"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Certified-Yoga-Instructor-Certification.jpg', 'ISSA - Yoga Instructor Certificate')">"Yoga Instructor"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Corrective-Exercise-Specialist-Certification.jpg', 'ISSA - Corrective Exercise Certificate')">"Corrective Exercise Specialist"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Exercise-Therapy-Certification-Certification.jpg', 'ISSA - Exercise Therapy Certificate')">"Specialist in Exercise Therapy"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Weight-Management-Specialist-Certification.jpg', 'ISSA - Weight Management Certificate')">"Weight Management Specialist"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ISSA-Transformation-Specialist-Certification.jpg', 'ISSA - Transformation Specialist Certificate')">"Transformation Specialist"</span><span class="text-white">],</span>
+            <span class="text-primary">PrecisionNutrition:</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/PrecisionNutrition-Level1-CEC.jpg', 'Precision Nutrition - Level 1 Nutrition Certificate')">"Level 1 Nutrition Coach"</span><span class="text-white">,</span>
+            <span class="text-primary">AFPA:</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/AFPA-Health-And-Wellness_Coach_Certification.jpg', 'AFPA - Health & Wellness Coach Certificate')">"Health and Wellness Coach"</span><span class="text-white">,</span>
+            <span class="text-primary">ExpertRating:</span> <span class="text-white">[</span><span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ExpertRating-Meditation-Instructor.jpg', 'ExpertRating - Meditation Instructor Certificate')">"Meditation Instructor"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ExpertRating-StretchingAndFlexibility.jpg', 'ExpertRating - Stretching & Flexibility Certificate')">"Stretching and Flexibility Instructor"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ExpertRating-HolisticNutrition.jpg', 'ExpertRating - Holistic Nutrition Certificate')">"Holistic Nutrition"</span><span class="text-white">,</span> <span class="myImg" onclick="modalImgDisplay('./assets/img/Certificates/Fitness/ExpertRating-HerbsandSupplements.jpg', 'ExpertRating - Herbs & Supplements Certificate')">"Herbs and Supplements"</span><span class="text-white">]</span>
           <span class="text-white">},</span>
           <span class="text-primary">socialMedia:</span> <span class="text-white">{</span>
-            <span class="text-primary">FaceBook:</span> "http://www.facebook.com/compassconditioning"<span class="text-white">,</span>
-            <span class="text-primary">Instagram:</span> "http://www.instagram.com/compassconditioning"<span class="text-white">,</span>
-            <span class="text-primary">Twitter:</span> "http://www.twitter.com/compasscond"<span class="text-white">,</span>
-            <span class="text-primary">YouTube:</span> "https://www.youtube.com/channel/UCtCFmKUDFxd2FsULjeBZUUA"
+            <span class="text-primary">FaceBook:</span> <span class="myImg" onClick="window.open('http://www.facebook.com/compassconditioning','_newtab');">"http://www.facebook.com/compassconditioning"</span><span class="text-white">,</span>
+            <span class="text-primary">Instagram:</span> <span class="myImg" onClick="window.open('http://www.instagram.com/compassconditioning','_newtab');">"http://www.instagram.com/compassconditioning"</span><span class="text-white">,</span>
+            <span class="text-primary">Twitter:</span> <span class="myImg" onClick="window.open('http://www.twitter.com/compasscond','_newtab');">"http://www.twitter.com/compasscond"</span><span class="text-white">,</span>
+            <span class="text-primary">YouTube:</span> <span class="myImg" onClick="window.open('https://www.youtube.com/channel/UCtCFmKUDFxd2FsULjeBZUUA','_newtab');">"https://www.youtube.com/channel/UCtCFmKUDFxd2FsULjeBZUUA"</span>
           <span class="text-white">}</span>
         <span class="text-white">}</span>
       <span class="text-white">}</span>
     <span class="text-white">}</span></pre>
     </div>
 </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="imgModal">
+  <div id="caption"></div>
+</div>
     </section>
-    <footer id="contactme" class="footer text-center">
-        <section class="contact-clean" style="background: var(--bs-body-bg);">
-            <form id="contact-frm" method="post" style="margin-left: auto; margin-right: auto; background: var(--bs-secondary);padding-top: 0.75em;padding-left: 0.5em;padding-right: 0.5em;border-radius: 10px;border-style: groove;border-color: var(--bs-dark);opacity: 0.90;" action="https://formspree.io/f/mqknqybr" name="contact">
-                <h2 class="text-center text-dark">Contact me</h2>
-                <div class="mb-3"><input class="form-control" type="text" id="full_nam" name="name" placeholder="Name" required=""></div>
-                <div class="mb-3"><input class="form-control" type="tel" name="telephone" placeholder="Phone"></div>
-                <div class="mb-3"><input class="form-control is-invalid" type="email" id="email-address" name="email" placeholder="Email" required=""><small class="form-text fs-4 text-danger">Please enter an email address.</small></div>
-                <div class="mb-3"><textarea class="form-control" id="message" name="message" placeholder="Message" rows="14"></textarea></div>
-                <div class="mb-3"><button class="btn btn-dark btn-lg fs-6 fw-bold link-secondary btn-radius" type="submit" style="background: var(--bs-dark);" name="submit">send MESSAGE</button></div>
-            </form>
-        </section>
+    <section id="contactme" class="contact-clean" style="background: var(--bs-body-bg);padding: 40px 0px;">
+        <form id="contact-frm" method="post" style="margin-left: auto; margin-right: auto; background: var(--bs-secondary);padding-top: 0.75em;padding-left: 0.5em;padding-right: 0.5em;border-radius: 10px;border-style: groove;border-color: var(--bs-dark);opacity: 0.90;" action="https://formspree.io/f/mqknqybr" name="contact">
+            <h2 class="text-center text-dark">Contact me</h2>
+            <div class="mb-3"><input class="form-control" type="text" id="full_nam" name="name" placeholder="Name" required=""></div>
+            <div class="mb-3"><input class="form-control" type="tel" name="telephone" placeholder="Phone"></div>
+            <div class="mb-3"><input class="form-control is-invalid" type="email" id="email-address" name="email" placeholder="Email" required=""><small class="form-text fs-4 text-danger">Please enter an email address.</small></div>
+            <div class="mb-3"><textarea class="form-control" id="message" name="message" placeholder="Message" rows="14"></textarea></div>
+            <div class="mb-3"><button class="btn btn-dark btn-lg fs-6 fw-bold link-secondary btn-radius" type="submit" style="background: var(--bs-dark);" name="submit">send MESSAGE</button></div>
+        </form>
+    </section>
+    <footer id="footer" class="footer text-center" style="padding: 0px;">
         <div class="container">
             <ul class="list-inline mb-5">
                 <li class="list-inline-item" id="footerEmail">&nbsp;<a class="link-light social-link rounded-circle" href="mailto:djsellers17@gmail.com"><i class="icon-envelope-letter"></i></a></li>
@@ -243,13 +251,14 @@
                 <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" id="footerInstagram" href="https://www.instagram.com/compassconditioning/"><i class="icon-social-instagram"></i></a></li>
                 <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" id="footerGitHub" href="https://github.com/slumpbuster"><i class="icon-social-github"></i></a></li>
             </ul>
-            <p class="fw-bold text-muted mb-0 small">Copyright &nbsp;© Dustin John Sellers 2022</p>
+            <p class="fw-bold text-muted mb-0 small" style="padding-bottom: 20px;">Copyright &nbsp;© Dustin John Sellers 2022</p>
         </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="icon-arrow-up"></i></a>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/stylish-portfolio.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
     <script src="https://formspree.io/js/formbutton-v1.min.js"></script>
+    <script src="assets/js/modal.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
