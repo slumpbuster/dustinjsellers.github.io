@@ -52,7 +52,8 @@ To provide more information about myself for anyone who may be interested
 	ProgrammingHub_CyberSecurity.png, ProgrammingHub_DevOps.png, ProgrammingHub_Docker.png, ProgrammingHub_Git.png, ProgrammingHub_HTML.png, 
 	ProgrammingHub_HTMLAdvanced.png, ProgrammingHub_IPv4_Networking.png, ProgrammingHub_JavaScript.png, ProgrammingHub_JavaScriptAdvanced.png, 
 	ProgrammingHub_JQuery.png, ProgrammingHub_MaterialDesign.png, ProgrammingHub_MongoDB.png, ProgrammingHub_PostgreSQL.png, ProgrammingHub_RDBMS.png, 
-	ProgrammingHub_SASS.png, ProgrammingHub_SoftwareEngineering.png, ProgrammingHub_SQL.png, ProgrammingHub_Typescript.png] - IT/Development Certifications
+	ProgrammingHub_SASS.png, ProgrammingHub_SoftwareEngineering.png, ProgrammingHub_SQL.png, ProgrammingHub_Typescript.png, 
+	ProgrammingHub_UI_UX.png] - IT/Development Certifications
 - **/assets/js/modal.js - Image modal Javascript File
 - **/assets/js/Simple-Slider.js - Portfolio (GitHub Projects) Slider Javascript File
 - **/assets/js/stylish-portfolio.js - Main Javascript File
