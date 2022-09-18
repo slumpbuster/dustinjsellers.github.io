@@ -18,7 +18,9 @@ Area of Study: Chemistry
 
 ## Certifications
 TECHNOLOGY
-- **MIT - Full Stack Development with MERN  (In Progress)**
+- **MIT - Full Stack Development with MERN**
+- **Cornell - User Experience Design  (In Progress)**
+- **Harvard - CS50's Web Programming with Python and JavaScript  (In Progress)**
 
 HEALTH & WELLNESS
 - **Precision Nutrition - Level 1 Nutrition Coach**
