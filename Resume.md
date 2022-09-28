@@ -10,6 +10,11 @@ UNIVERSITY OF PHOENX (Online)
 Area of Study: Information Technology  
 GPA 3.92/4.0
 
+ENROLLED
+GEORGIA INSTITUTE OF TECHNOLOGY (Online)  
+**Masters in Cybersecurity (Information Security)**  
+Area of Study: Cybersecurity
+
 1995-1997
 JOHN CARROL UNIVERSITY (Cleveland, OH)  
 Area of Study: Chemistry
@@ -19,6 +24,7 @@ Area of Study: Chemistry
 ## Certifications
 TECHNOLOGY
 - **MIT - Full Stack Development with MERN**
+- **GitLab - How to Manage a Remote Team**
 - **Cornell - User Experience Design  (In Progress)**
 - **Harvard - CS50's Web Programming with Python and JavaScript  (In Progress)**
 
