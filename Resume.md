@@ -11,7 +11,7 @@ Area of Study: Information Technology
 GPA 3.92/4.0
 
 ENROLLED
-GEORGIA INSTITUTE OF TECHNOLOGY (Online)  
+GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2025)
 **Masters in Cybersecurity (Information Security)**  
 Area of Study: Cybersecurity
 
@@ -25,8 +25,7 @@ Area of Study: Chemistry
 TECHNOLOGY
 - **MIT - Full Stack Development with MERN**
 - **GitLab - How to Manage a Remote Team**
-- **Cornell - User Experience Design  (In Progress)**
-- **Harvard - CS50's Web Programming with Python and JavaScript  (In Progress)**
+- **Cornell University - User Experience Design  (04/2023)**
 
 HEALTH & WELLNESS
 - **Precision Nutrition - Level 1 Nutrition Coach**
