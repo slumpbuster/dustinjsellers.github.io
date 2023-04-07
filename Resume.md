@@ -4,16 +4,15 @@ Boardman, OH 44512 ◆ (330) 559-6866 ◆ <djsellers17@gmail.com> ◆ [Portfolio
 --------
 
 ## Education
+GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (05/2026)
+**Masters in Cybersecurity (Information Security)**  
+Area of Study: Cybersecurity
+
 2001-2004
 UNIVERSITY OF PHOENX (Online)  
 **Bachelor of Science in Information Technology**  
 Area of Study: Information Technology  
 GPA 3.92/4.0
-
-ENROLLED
-GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2025)
-**Masters in Cybersecurity (Information Security)**  
-Area of Study: Cybersecurity
 
 1995-1997
 JOHN CARROL UNIVERSITY (Cleveland, OH)  
@@ -25,7 +24,8 @@ Area of Study: Chemistry
 TECHNOLOGY
 - **MIT - Full Stack Development with MERN**
 - **GitLab - How to Manage a Remote Team**
-- **Cornell University - User Experience Design  (04/2023)**
+- **Cornell University - User Experience Design**
+- **Google- Project Management  (05/2023)**
 
 HEALTH & WELLNESS
 - **Precision Nutrition - Level 1 Nutrition Coach**
