@@ -47,7 +47,8 @@ To provide more information about myself for anyone who may be interested
 	ISSA-Sports-Nutritionist-Certification.jpg, ISSA-Strength-and-Conditioning-Certification.jpg, ISSA-Transformation-Specialist-Certification.jpg, 
 	ISSA-Weight-Management-Specialist-Certification.jpg, ISSA-Youth-Fitness-Certification-Certification.jpg, 
 	Mindfulness-Based-Stress-Reduction-Certifications.jpg, PrecisionNutrition-Level1-CEC.jpg] - Health/ Wellness Certifications
-- **/assets/Certificates/IT/[freeCodeCamp-ResponsiveWebDesign.png, ProgrammingHub_BootstrapFramework.png, ProgrammingHub_BuildingAWebsite.png, 
+- **/assets/Certificates/IT/[Cornell-UxDesign.jpg, freeCodeCamp-ResponsiveWebDesign.png, GitLab-HowToManageARemoteTeam, 
+    Google-ProjectManagement.jpg, MIT-MERN.jpg, ProgrammingHub_BootstrapFramework.png, ProgrammingHub_BuildingAWebsite.png, 
     ProgrammingHub_BulmaCSS.png, ProgrammingHub_CloudComputing.png, ProgrammingHub_Cryptography.png, ProgrammingHub_CSS.png, 
 	ProgrammingHub_CyberSecurity.png, ProgrammingHub_DevOps.png, ProgrammingHub_Docker.png, ProgrammingHub_Git.png, ProgrammingHub_HTML.png, 
 	ProgrammingHub_HTMLAdvanced.png, ProgrammingHub_IPv4_Networking.png, ProgrammingHub_JavaScript.png, ProgrammingHub_JavaScriptAdvanced.png, 
