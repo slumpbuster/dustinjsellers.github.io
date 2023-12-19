@@ -4,10 +4,11 @@ Boardman, OH 44512 ◆ (330) 559-6866 ◆ <djsellers17@gmail.com> ◆ [Portfolio
 --------
 
 ## Education
-GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (05/2026)
+GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2025)
 **Masters in Cybersecurity (Information Security Track)**  
 Area of Study: Cybersecurity
-GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2025)
+
+GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2024)
 **MBA (Project Management Track)**  
 Area of Study: Cybersecurity
 
@@ -26,9 +27,10 @@ Area of Study: Chemistry
 ## Certifications
 TECHNOLOGY
 - **MIT - Full Stack Development with MERN**
-- **GitLab - How to Manage a Remote Team**
 - **Cornell University - User Experience Design**
 - **Google - Project Management**
+- **University of Colorado - Agile Leadership**
+- **GitLab - How to Manage a Remote Team**
 
 HEALTH & WELLNESS
 - **Precision Nutrition - Level 1 Nutrition Coach**
