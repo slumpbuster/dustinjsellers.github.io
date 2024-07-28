@@ -8,12 +8,12 @@ GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2025)
 **Masters in Cybersecurity (Information Security Track)**  
 Area of Study: Cybersecurity
 
-Louisiana State University Shreveport (Online)  (12/2024)
+LOUISIANA STATE UNIVERSITY SHREVEPORT (Online)  (12/2024)
 **MBA (Project Management Track)**  
 Area of Study: Cybersecurity
 
 2001-2004
-UNIVERSITY OF PHOENX (Online)  
+UNIVERSITY OF PHOENIX (Online)  
 **Bachelor of Science in Information Technology**  
 Area of Study: Information Technology  
 GPA 3.92/4.0
