@@ -28,8 +28,8 @@ Area of Study: Chemistry
 TECHNOLOGY/LEADERSHIP/MANAGEMENT
 - **MIT - Full Stack Development with MERN**
 - **Cornell University - User Experience Design**
-- **Google - Project Management**
 - **Transformance Advisors - Certified Lean Practitioner**
+- **Google - Project Management**
 - **University of Colorado - Agile Leadership**
 - **GitLab - How to Manage a Remote Team**
 
