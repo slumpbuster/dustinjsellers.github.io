@@ -8,12 +8,12 @@ GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2025)
 **Masters in Cybersecurity (Information Security Track)**  
 Area of Study: Cybersecurity
 
-GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2024)
+LOUISIANA STATE UNIVERSITY SHREVEPORT (Online)  (12/2024)
 **MBA (Project Management Track)**  
 Area of Study: Cybersecurity
 
 2001-2004
-UNIVERSITY OF PHOENX (Online)  
+UNIVERSITY OF PHOENIX (Online)  
 **Bachelor of Science in Information Technology**  
 Area of Study: Information Technology  
 GPA 3.92/4.0
@@ -47,9 +47,12 @@ Skillset
 - Team Lead
 - Software Engineer
 - Database Architect
+- Software Architect
 - Database Administrator
 - Network Administrator
+- Product Management
 - Product Analyst
+- Quality Analyst
 - Teacher
 - Coach
 
@@ -62,11 +65,14 @@ Methodologies
 Languages
 - C# / VB.NET
 - PowerBuilder
+- Python
+- C / C++
+- TSQL (Microsoft SQL / MySQL / ASA)
+- NoSQL (MongoDB)
 - HTML / CSS
+- PHP
 - Javascript (REACT, NODE, RECOIL, JQUERY)
 - XML / JSON
-- C / C++
-- TSQL (MICROSOFT SQL / MySQL / ASA / ORACLE / MONGO)
 
 ---------
 
@@ -74,7 +80,7 @@ Languages
 Document Management System – C# / MS SQL (Sole Developer)
 - Design, Code, Unit Test, Document, Implement, Maintain
 - Client/Server and Web Service Based
-- Add, Edit, View, Delete various types of Documents (Images, Microsoft Documents, Audio, Video, Text/XML/HTML)
+- Add, Edit, View, and Delete various types of Documents (Images, Microsoft Documents, Audio, Video, Text/XML/HTML)
 - Vector Image Annotation using GDI+
 
 Electronic Medical Records – PowerBuilder / MS SQL (Senior Developer)
