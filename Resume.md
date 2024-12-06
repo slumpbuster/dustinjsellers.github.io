@@ -28,6 +28,7 @@ Area of Study: Chemistry
 TECHNOLOGY/LEADERSHIP/MANAGEMENT
 - **MIT - Full Stack Development with MERN**
 - **Cornell University - User Experience Design**
+- **National Society of Leadership and Success - Foundations of Leadership, Advanced Leadership**
 - **Transformance Advisors - Certified Lean Practitioner**
 - **Google - Project Management**
 - **University of Colorado - Agile Leadership**
