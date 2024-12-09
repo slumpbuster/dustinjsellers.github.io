@@ -8,9 +8,11 @@ GEORGIA INSTITUTE OF TECHNOLOGY (Online)  (12/2025)
 **Masters in Cybersecurity (Information Security Track)**  
 Area of Study: Cybersecurity
 
-LOUISIANA STATE UNIVERSITY SHREVEPORT (Online)  (12/2024)
+2023 - 2024
+LOUISIANA STATE UNIVERSITY SHREVEPORT (Online)  
 **MBA (Project Management Track)**  
-Area of Study: Cybersecurity
+Area of Study: Project Management
+GPA 4.0/4.0
 
 2001-2004
 UNIVERSITY OF PHOENIX (Online)  
@@ -29,7 +31,7 @@ TECHNOLOGY/LEADERSHIP/MANAGEMENT
 - **MIT - Full Stack Development with MERN**
 - **Cornell University - User Experience Design**
 - **National Society of Leadership and Success - Foundations of Leadership, Advanced Leadership**
-- **Transformance Advisors - Certified Lean Practitioner**
+- **Transformance Advisors - Six Sigma Green Belt, Lean Practitioner**
 - **Google - Project Management**
 - **University of Colorado - Agile Leadership**
 - **GitLab - How to Manage a Remote Team**
