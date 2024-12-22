@@ -37,7 +37,7 @@ TECHNOLOGY/LEADERSHIP/MANAGEMENT
 - **GitLab - How to Manage a Remote Team**
 
 HEALTH & WELLNESS
-- **Precision Nutrition - Level 1 Nutrition Coach**
+- **Precision Nutrition - Level 1 Nutrition Coach / Level 1 Sleep, Stress Management, & Recovery Coaching**
 - **AFPA - Health & Wellness Coach**
 - **ISSA - Master & Elite Trainer / Personal/Fitness Trainer / Specialist in Sports Nutrition / Youth Fitness Trainer / Specialist in Strength & Conditioning / Group Exercise Instructor / Yoga Instructor / Corrective Exercise Specialist / Weight Management Specialist / Transformation Specialist / Specialist in Exercise Therapy**
 - **ExpertRating - Meditation Instructor / Stress Management Certification / Stretching & Flexibility Instructor / Holistic Nutrition / Herbs & Supplements**
